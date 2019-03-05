@@ -1,0 +1,87 @@
+ul {
+list-style-type:none;
+display: flex;
+}
+.logos{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.logo-names{
+    font-size: 20px;
+    font-family: Source+Sans+Pro;
+}
+.header-main{
+    height: 45px;
+    background-color:#eaedf2;
+}
+.header-content-main{
+    float: right;
+}
+.header-element{
+    display: flex;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+.body-content{
+    height: auto;
+    background-color:#eaedf2;
+    display: flex;
+    justify-content: center;
+}
+.body-element{
+    height: auto;
+    width: 25%;
+}
+.intuit{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.intuit-text{
+    font-family: Permanent+Marker;
+    text-decoration: none;
+}
+.form-text-first{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.form-text-second{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.form-section-element{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.form-section{
+    /* width: 100%;
+    height: auto;
+    border: 1px solid black; */
+}
+.form-element{
+    height: 20px;
+}
+.form-element-content{
+    display: flex;
+    flex-direction: column;
+}
+.telephone-text{
+    font-size: 9px;   
+}
+.form-footer-adder{
+    background-color: lightgray;
+}
+.form-footer{
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}

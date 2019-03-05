@@ -3,67 +3,81 @@
   <head>
     <meta charset="utf-8">
     <title>Mint.com_singup</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/mint.com_singup.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   </head>
   <body>
     <section>
-      <header>
-        <div class="">
-          <div class="">
-            already have an intuit account?
-            <a href="#">I forgot my user ID or Password</a>
-          </div>
-          <div class="button">
-            <button type="button" class="ius-hosted-ui .ius-btn-submit" name="button">Sign In</button>
+      <header class="header-main">
+        <div class="header-content-main">
+          <div class="header-element">
+            <div class="header-text">
+              <p>already have an intuit account?</p>
+              <a href="#">I forgot my user ID or Password</a>
+            </div>
+            <div class="button">
+              <button type="button" class="ius-hosted-ui .ius-btn-submit" name="button">Sign In</button>
+            </div>
           </div>
         </div>
       </header>
-      <div class="">
-        <main>
-          <div class="">
-            <h2>Intuit</h2>
+      <div class="body-content">
+        <main class="body-element">
+          <div>
+            <div class="intuit">
+              <a href="" class="intuit-text">Intuit</a>
+            </div>
+            <div class="">
+              <ul>
+                <li><img src="https://static1.squarespace.com/static/58a9fbe9be6594a08426e374/t/5bd25af9b208fc3a480245b2/1540512558675/REFRESH.png" alt="" class="logos"></li>
+                <li class="logo-names">mint</li>
+                <li><img src="https://quickbooks.intuit.com/content/dam/intuit/quickbooks/common/qb_thumb.png" alt="" class="logos"></li>
+                <li class="logo-names">QuickBooks</li>
+                <li><img src="https://banner2.kisspng.com/20180607/yj/kisspng-turbotax-tax-return-intuit-tax-preparation-in-the-5b19fd2dd09217.5530088615284298698543.jpg" alt="" class="logos"></li>
+                <li class="logo-names">TurboTax</li>
+              </ul>
+            </div>
           </div>
-          <div class="">
-            <ul>
-              <li>image</li>
-              <li>mint</li>
-              <li>image</li>
-              <li>QuickBooks</li>
-              <li>image</li>
-              <li>TurboTax</li>
-            </ul>
+          <div class="form-section-element">
+            <section class="form-section">
+              <div class="form-text-first">
+                <h2>One Account.
+                    <br>Everything Intuit.</h2>
+              </div>
+              <div class="form-text-second">
+                <p>Create an account for all of Intuit's products <br>including Mint.<a href="">Learn more</a> </p>   
+              </div>
+              <div class="form-element">
+                <form action="/my-handling-form-page" method="post">
+                  <div class="form-element-content">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                  </div>
+                  <div class="form-element-content">
+                    <label for="telephone">Telephone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number">
+                    <p class="telephone-text">Standard call, messaging or data rates may apply</p>
+                  </div>
+                  <div class="form-element-content">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"></input>
+                  </div>
+                  <div class="button">
+                    <button type="submit">Send your message</button>
+                  </div>
+                </form>
+                <div class="form-footer">
+                  <p>By clicking Create Account, you agree to our<br>
+                  <a href="">License Agreement</a> and have read and acknowledge <br>our <a href="">Privacy Statement</a>.</p> 
+                </div>
+                <div class="form-footer form-footer-adder">
+                  Invisible reCAPTCHA by Google <a href="">Privacy Policy</a>  and <a href="">Terms of Use</a>.
+                </div>
+              </div>
+            </section>
           </div>
-          <section>
-            <div class="">
-
-            </div>
-            <div class="">
-
-            </div>
-            <form action="/my-handling-form-page" method="post">
-              <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_email">
-              </div>
-              <div>
-                <label for="telephone">Telephone Number</label>
-                <input type="tel" id="phone-number" name="phone-number">
-              </div>
-              <div>
-                <label for="pass">Password</label>
-                <input id="password" name="password"></input>
-              </div>
-              <div class="button">
-                <button type="submit">Send your message</button>
-              </div>
-            </form>
-            <div class="">
-              By clicking Create Account, you agree to our
-              License Agreement and have read and acknowledge our Privacy Statement.
-            </div>
-            <div class="">
-              Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
-            </div>
-          </section>
         </main>
       </div>
       <footer>
