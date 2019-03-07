@@ -1,6 +1,8 @@
+.d-flex{
+  display: flex;
+}
 ul {
-list-style-type:none;
-display: flex;
+  list-style-type:none;
 }
 .logos{
     height: 25px;
@@ -19,17 +21,12 @@ display: flex;
     float: right;
     width: 25%;
 }
-.header-element{
-    display: flex;
-}
 .header-text{
-    display: flex;
     flex-direction: column;
 }
 .body-content{
     height: auto;
     background-color:#eaedf2;
-    display: flex;
     justify-content: center;
 }
 .body-element{
@@ -47,7 +44,7 @@ display: flex;
     text-decoration: none;
 }
 .shortcuts{
-    margin-left: 43px;
+    margin-left: 84px;
 }
 .form-text-first{
     width: 100%;
@@ -104,7 +101,7 @@ display: flex;
   width: 109%;
   background-color: lightgray;
   height: 28px;
-  margin-left: -15px;
+  margin-left: -18px;
   margin-top: 27px;
 }
 .footer-text{
