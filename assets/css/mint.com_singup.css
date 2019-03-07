@@ -44,7 +44,8 @@ ul {
     text-decoration: none;
 }
 .shortcuts{
-    margin-left: 84px;
+    width: 99%;
+    margin-left: 45px;
 }
 .form-text-first{
     width: 100%;
