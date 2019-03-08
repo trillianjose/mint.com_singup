@@ -1,0 +1,140 @@
+.d-flex{
+  display: flex;
+}
+ul {
+  list-style-type:none;
+}
+.logos{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.logo-names{
+    font-size: 20px;
+    font-family: Source+Sans+Pro;
+}
+.header-main{
+    height: 45px;
+    background-color:#eaedf2;
+    padding-top: 0.5rem;
+}
+.header-content-main{
+    float: right;
+    width: 25%;
+}
+.header-text{
+    flex-direction: column;
+}
+.body-content{
+    height: auto;
+    background-color:#eaedf2;
+    justify-content: center;
+}
+.body-element{
+    height: auto;
+}
+.intuit{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-left:10px;
+}
+.intuit-text{
+    font-family: Permanent+Marker;
+    text-decoration: none;
+}
+.shortcuts{
+    width: 100%;
+    margin-left: 1rem;
+}
+.form-text-first{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.form-text-second{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.form-section-element{
+    background-color: white;
+    width: 100%;
+    height: 539px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.button-create{
+    width: 100%;
+    height: 40px;
+}
+.create-account{
+    width: 100%;
+    height: 35px;
+    background-color: #2f74e2;
+    border-radius: 8%;
+    color: white;
+}
+.form-element{
+    height: 20px;
+}
+.form-element-content{
+    display: flex;
+    flex-direction: column;
+}
+.my-handling-form-page{
+    width: 80%;
+    margin-left: 2rem;
+}
+.telephone-text{
+    font-size: 9px;
+}
+.form-footer-adder{
+    background-color: lightgray;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 8px;
+}
+.form-footer{
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+.form-footer-border{
+  width: 100%;
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  height: 28px;
+  padding: 20px;
+}
+.footer-text{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.button-signup{
+    width: 80px;
+    margin-left:10px;
+}
+.signup{
+    height: 100%;
+    width: 105px;
+    background: #2f74e2;
+    border-radius: 8%;
+    color: white;
+
+}
+.add-space{
+    margin-bottom: 5px;
+}
+.d-full{
+    width: 100%;
+    justify-content: space-between;
+}
+.f-center{
+  width: 20%;
+  margin: 0 auto;
+}
