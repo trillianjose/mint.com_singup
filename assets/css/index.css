@@ -32,7 +32,6 @@ ul {
 }
 .body-element{
     height: auto;
-    width: 35%;
 }
 .intuit{
     width: 100%;
@@ -136,5 +135,6 @@ ul {
     justify-content: space-between;
 }
 .f-center{
-  margin-left: 30rem;
+  width: 20%;
+  margin: 0 auto;
 }
