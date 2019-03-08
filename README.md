@@ -16,4 +16,4 @@
 ---
 # Live Demo
 
-Click [here](https://raw.githack.com/trillianjose/mint.com_singup/development/mint.com_singup.html) to see the latest updates
+Click [here](https://raw.githack.com/trillianjose/mint.com_singup/development/index.html) to see the latest updates
