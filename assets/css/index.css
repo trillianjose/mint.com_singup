@@ -16,7 +16,7 @@ ul {
 .header-main{
     height: 45px;
     background-color:#eaedf2;
-    margin-top: 0.5rem;
+    padding-top: 0.5rem;
 }
 .header-content-main{
     float: right;
@@ -32,7 +32,7 @@ ul {
 }
 .body-element{
     height: auto;
-    width: 25%;
+    width: 35%;
 }
 .intuit{
     width: 100%;
@@ -104,11 +104,10 @@ ul {
     text-align: center;
 }
 .form-footer-border{
-  width: 109%;
+  width: 100%;
   background-color: lightgray;
   height: 28px;
-  margin-left: -18px;
-  margin-top: 27px;
+  padding: 20px;
 }
 .footer-text{
   margin-top: 50px;
@@ -134,4 +133,7 @@ ul {
 .d-full{
     width: 100%;
     justify-content: space-between;
+}
+.f-center{
+  margin-left: 40rem;
 }
