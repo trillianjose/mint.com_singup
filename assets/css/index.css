@@ -16,6 +16,7 @@ ul {
 .header-main{
     height: 45px;
     background-color:#eaedf2;
+    margin-top: 0.5rem;
 }
 .header-content-main{
     float: right;
@@ -44,8 +45,8 @@ ul {
     text-decoration: none;
 }
 .shortcuts{
-    width: 99%;
-    margin-left: 45px;
+    width: 100%;
+    margin-left: 1rem;
 }
 .form-text-first{
     width: 100%;
@@ -82,6 +83,10 @@ ul {
 .form-element-content{
     display: flex;
     flex-direction: column;
+}
+.my-handling-form-page{
+    width: 80%;
+    margin-left: 2rem;
 }
 .telephone-text{
     font-size: 9px;
@@ -125,4 +130,8 @@ ul {
 }
 .add-space{
     margin-bottom: 5px;
+}
+.d-full{
+    width: 100%;
+    justify-content: space-between;
 }
