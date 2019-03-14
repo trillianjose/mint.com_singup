@@ -8,6 +8,7 @@
 # TOOLS
 - HTML
 - CSS
+- Stikler
 ---
 # Contributors
 
